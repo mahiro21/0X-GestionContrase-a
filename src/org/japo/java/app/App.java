@@ -15,7 +15,7 @@
  */
 package org.japo.java.app;
 
-import org.japo.java.libraries.UtilesContraseña;
+import org.japo.java.libraries.UtilesPassword;
 
 /**
  *
@@ -26,9 +26,9 @@ public final class App {
     public final void launchApp() {
         System.out.println("Validar Contraseña");
         System.out.println("==================");
-        
-        System.out.println(UtilesContraseña.validarPassword("Pepe32@")
-                ?"La contraseña es válida":"La contraseña no es válida");
+
+        System.out.println(UtilesPassword.validarPassword("Abcde12#")
+                ? "La contraseña es válida" : "La contraseña no es válida");
 
     }
 
